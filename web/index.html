@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="proyctos_abitalia">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>proyctos_abitalia</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Secreto del Cliente: b4GC6KV3_uOlXi-ouk68jhRG -->
+  <!-- URL permitida auth Google: http://localhost:60588 -->
+  <!-- flutter run -d chrome — web-hostname localhost — web-port 60588 -->
+  <meta name="google-signin-client_id" content="367546527803-9qtnje6ktmgg6pllh5su726vguet02cl.apps.googleusercontent.com">
+</head>
+<body>
+
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="main.dart.js" type="application/javascript"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBOlj-aQ4VHbirpyczWS3GuI4BjoR_d69o",
+        authDomain: "abitalia-proyectos.firebaseapp.com",
+        projectId: "abitalia-proyectos",
+        storageBucket: "abitalia-proyectos.appspot.com",
+        messagingSenderId: "185731857196",
+        appId: "1:185731857196:web:f42109634f32c10d0c4a89",
+        measurementId: "G-WG7TNWQ8MZ"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+</body>
+</html>

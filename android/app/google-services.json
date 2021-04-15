@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "185731857196",
+    "project_id": "abitalia-proyectos",
+    "storage_bucket": "abitalia-proyectos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185731857196:android:0686a00e326defb10c4a89",
+        "android_client_info": {
+          "package_name": "mx.creapolis.proyctos_abitalia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185731857196-83j00okv1gqnune9kk7sbn8f1cntorf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.creapolis.proyctos_abitalia",
+            "certificate_hash": "4722bfa91476180b3a6223751840fa68980591fd"
+          }
+        },
+        {
+          "client_id": "185731857196-t31lfaff93gjoalvk96n5gtm20njdd0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpy0dC9M01cbMrNuw9bhJAa48qiugS44g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185731857196-t31lfaff93gjoalvk96n5gtm20njdd0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
